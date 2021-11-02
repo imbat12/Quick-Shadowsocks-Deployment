@@ -1,2 +1,2 @@
 # Quick-Shadowsocks-Deployment
-Quick shadowsocks deployment for Ubuntu 20.04
+Quick shadowsocks deployment for linux server, specifically Ubuntu 20.04
