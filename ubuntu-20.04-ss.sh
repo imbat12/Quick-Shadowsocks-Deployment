@@ -30,7 +30,7 @@ echo " ################################################################### "
 echo "Enter a secure password to connect to Shadowsocks in the future: "
 echo " #### TYPE IN YOUR PASSWORD #### "
 read PASSWORD
-sleep 1
+password
 
 echo "[Generating JSON config file]"
 file="/var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json"
@@ -136,6 +136,11 @@ Server            : YOUR_SERVER_IP
 Port              : 443
 Password          : $PASSWORD
 Encryption method : chacha20-ietf-poly1305"
+
+echo "To change your password edit the config with the command below."
+echo "nano /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json"
+
+
 
 
 
