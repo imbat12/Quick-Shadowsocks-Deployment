@@ -25,12 +25,7 @@ sleep 1
 sudo touch /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json
 echo " ################################################################### "
 echo " ################################################################### "
-
-
-echo "Enter a secure password to connect to Shadowsocks in the future: "
-echo " #### TYPE IN YOUR PASSWORD #### "
-read PASSWORD
-password
+sleep 1 
 
 echo "[Generating JSON config file]"
 file="/var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json"
@@ -38,7 +33,7 @@ echo "{" > $file
 echo "    \"server\":[\"[::0]\", \"0.0.0.0\"]," >> $file
 echo "    \"mode\":\"tcp_and_udp\"," >> $file
 echo "    \"server_port\":443," >> $file
-echo "    \"password\":\"$PASSWORD\"," >> $file
+echo "    \"password\":\"PASSWORD\"," >> $file
 echo "    \"timeout\":60," >> $file
 echo "    \"method\":\"chacha20-ietf-poly1305\"," >> $file
 echo "    \"nameserver\":\"1.1.1.1\"" >> $file
@@ -134,13 +129,11 @@ echo "Connect with a shadowsocks client with the information below"
 echo "
 Server            : YOUR_SERVER_IP
 Port              : 443
-Password          : $PASSWORD
+Password          : PASSWORD
 Encryption method : chacha20-ietf-poly1305"
 
-echo "To change your password edit the config with the command below."
-echo "nano /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json"
-
-
+echo "To change your password edit the config file with the command below."
+echo "-> nano /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json"
 
 
 
