@@ -82,9 +82,6 @@ sudo systemctl start shadowsocks-libev-server@config
 echo "[shadowsocks service started]"
 sleep 1
 
-sudo systemctl restart shadowsocks-libev-server@config
-sleep 1
-
 
 echo "[Optimzing server]"
 file2="/etc/security/limits.conf"
@@ -122,18 +119,31 @@ sleep 1
 
 echo "[Activating new settings]"
 sudo sysctl -p 
-sleep 1 
+sleep 1
+
+sudo systemctl restart shadowsocks-libev-server@config
+sleep 1
+
+YOUR_SERVER_IP=$(hostname -I | awk '{ print $1}')
+
 
 echo "Your shadowsocks server is ready"
 echo "Connect with a shadowsocks client with the information below"
 echo "
-Server            : YOUR_SERVER_IP
-Port              : 443
-Password          : PASSWORD
-Encryption method : chacha20-ietf-poly1305"
+###############################################
+###############################################
+||Server            : $YOUR_SERVER_IP        ||      
+||Port              : 443                    ||
+||Password          : PASSWORD               ||
+||Encryption method : chacha20-ietf-poly1305 ||
+###############################################
+###############################################
+"
 
-echo "To change your password edit the config file with the command below."
+echo "To change the default password edit the config file with the command below."
 echo "-> nano /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json"
+echo "reboot the server after for it to take effect -> reboot "
+
 
 
 
