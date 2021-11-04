@@ -7,6 +7,7 @@ Quick shadowsocks deployment for linux server, specifically Ubuntu 20.04
 
 How to use: 
 (You can just copy & paste the commands below which are between these " ")
+- Step-by-Step video guide: https://www.youtube.com/watch?v=xPM4elJtxCs
 
 1) Get yourself an ubuntu 20.04 server from a VPS provider ( Linode, DigitalOcean etc) which costs about 5$ a month.
 - https://www.linode.com/ 
