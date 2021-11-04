@@ -9,6 +9,9 @@ How to use:
 (You can just copy & paste the commands below which are between these " ")
 
 1) Get yourself an ubuntu 20.04 server from a VPS provider ( Linode, DigitalOcean etc) which costs about 5$ a month.
+- https://www.linode.com/ 
+- https://www.digitalocean.com/
+- There are more VPS providers out there, feel free to check them out.
 2) SSH into your server (If you are on windows use PuTTy, If on macOS or Linux just use ssh directly from the terminal like so -> " ssh root@YOUR SERVER's IP ")
 3) Update server and install snap with -> " ***sudo curl https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-setup.sh | bash*** " 
 4) Your server just rebooted, keep calm and SSH into it again then proceed to step 5.
