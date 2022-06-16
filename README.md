@@ -3,7 +3,7 @@ What is shadowsocks?
 
 
 # Quick-Shadowsocks-Deployment
-Quick shadowsocks deployment for linux server, specifically Ubuntu 20.04
+Quick shadowsocks deployment for linux server, specifically Ubuntu 20.04 & 22.04
 
 How to use: 
 (You can just copy & paste the commands below which are between these " ")
@@ -15,7 +15,7 @@ How to use:
 - There are more VPS providers out there, feel free to check them out.
 2) SSH into your server (If you are on windows use PuTTy or powershell, If on macOS or Linux just use ssh directly from the terminal like so -> " ssh root@YOUR SERVER's IP ")
 - PuTTY can be found at : https://www.chiark.greenend.org.uk/~sgtatham/putty/
-3) Update server and install snap with -> " ***sudo curl https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-setup.sh | bash*** " 
+3) Update server and install snap with -> " ***sudo curl https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-setup.sh | bash*** " - On 22.04 press ENTER on any prompt that shows up until it asks you to manualy reboot. Then press CTRL+C and type in "reboot".
 4) Your server just rebooted, keep calm and SSH into it again then proceed to step 5.
 5) Install shadowsocks with -> " ***sudo curl https://raw.githubusercontent.com/OmiceyO/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-ss.sh?token=AQOTYQ3JI5HLHYBQY7TN2ELBQH3WI | bash*** "
 6) Change the default password by editing this file -> " ***nano /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json*** "
