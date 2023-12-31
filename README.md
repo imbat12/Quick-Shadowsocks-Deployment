@@ -1,12 +1,11 @@
 # Quick-Shadowsocks-Deployment
 Linux Server için hızlı bir şekilde Shadowsocks kurma aracı, -Ubuntu 20.04 ve 22.04-
-***
+
 <sub><sup>Bu projenin alındığı orjinal kaynak linki: https://github.com/OmiceyO/Quick-Shadowsocks-Deployment/tree/main .
 Bu kopyalanmış proje ingilizce konusunda sıkıntı yaşayanlar için türkçeleştirilerek ve bazı açıklamalar değiştirilerek tekrar düzenlenmiştir. @OmiceyO 'ye teşekür ederiz.</sup></sub>
 <sub><sup>The main source link in which this project is taken is: https://github.com/omiceyo/quick-shadowsocks-deployment/tre/main .
 This copied project has been re -arranged by being translated into Turkish for those who have problems in English and changing some explanations.
 Thank you to @OmiceyO</sup></sub>
-****
 
 # Shadowsocks nedir? 
 - https://en.wikipedia.org/wiki/Shadowsocks
