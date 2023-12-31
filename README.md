@@ -1,4 +1,4 @@
-Bu projenin asıl alındığı kaynak linki: https://github.com/OmiceyO/Quick-Shadowsocks-Deployment/tree/main
+Bu projenin asıl alındığı kaynak linki: https://github.com/OmiceyO/Quick-Shadowsocks-Deployment/tree/main 
 Bu kopyalanmış proje ingilizce konusunda sıkıntı yaşayanlar için türkçeleştirilerek ve bazı açıklamalar değiştirilerek tekrar düzenlenmiştir.  
 @OmiceyO 'ye teşekür ederiz.
 
