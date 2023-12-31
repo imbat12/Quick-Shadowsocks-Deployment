@@ -36,11 +36,11 @@ Linux Server için Quick-Shadowsocks-Deployment, Özellikle Ubuntu 20.04 ve 22.0
    
 4) Sunucunuz yeniden başlatıldı, sakin olun ve tekrar içine girin, sonra 5. adıma geçin.
 5) Shadowsock'u şu komut ile yükleyin ->
-   ***sudo su***
-   ***sudo curl :https://raw.githubusercontent.com/imbat12/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-ss.sh | bash***
+   * ***sudo su***
+   * ***sudo curl :https://raw.githubusercontent.com/imbat12/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-ss.sh | bash***
    
 7) Bu dosyayı düzenleyerek varsayılan şifreyi değiştirin ->
-   ***nano /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json***
+   * ***nano /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json***
    
 9) Yeni şifrenizi girdikten sonra tuşuna basın ***CONTROL + O*** daha sonra kaydetmek için ***ENTER*** tuşuna basın ve çıkmak için ***CONTROL+X*** basın.
 10) Şifrenizi değiştirdikten sonra sunucuyu yeniden başlatın ->   ***sudo reboot***
