@@ -23,7 +23,7 @@ Linux Server için Quick-Shadowsocks-Deployment, Özellikle Ubuntu 20.04 ve 22.0
 1) Bir VPS sağlayıcısından (Linode, DigitalOcean vb.) Ayda yaklaşık 5 $ 'a mal olan bir Ubuntu 20.04 sunucusu alın.
 - https://www.linode.com/
 - https://www.digitalocean.com/
-- Orada daha fazla VPS sağlayıcısı var, onları kontrol etmekten çekinmeyin.
+- Birçok VPS sağlayıcısı var, lütfen araştırmaktan çekinmeyin.
   
 2) Sunucuyu güncelleyin ve Snap'i şununla yükleyin ->
    
