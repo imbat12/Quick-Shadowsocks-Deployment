@@ -17,7 +17,7 @@ Shadowsocks nedir?
 Linux Server için Quick shadowsocks deployment, Özellikle Ubuntu 20.04 ve 22.04
 
 Nasıl kullanılır:
-(Aşağıdaki komutları kopyalayıp yapıştırabilirsiniz, bunlar arasında ""))
+(Aşağıdaki komutları kopyalayıp yapıştırabilirsiniz.)
 -Adım adım video kılavuzu: https://www.youtube.com/watch?v=xPM4elJtxCs
 
 1) Bir VPS sağlayıcısından (Linode, DigitalOcean vb.) Ayda yaklaşık 5 $ 'a mal olan bir Ubuntu 20.04 sunucusu alın.
@@ -27,23 +27,23 @@ Nasıl kullanılır:
   
 2) Sunucuyu güncelleyin ve Snap'i şununla yükleyin ->
    
-" ***sudo apt update*** " 
-" ***sudo apt upgrade*** " 
-" ***sudo su*** " 
-" ***sudo curl https://raw.githubusercontent.com/imbat12/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-setup.sh | bash*** " 
+***sudo apt update***  
+***sudo apt upgrade***
+***sudo su*** 
+***sudo curl https://raw.githubusercontent.com/imbat12/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-setup.sh | bash*** 
 
-   Sizden manuel yeniden başlatmayı isteyene kadar görünen herhangi bir istem için Enter tuşuna basın. Ardından CTRL+C tuşuna basın ve " ***sudo reboot*** "  yazın.
+   Sizden manuel yeniden başlatmayı isteyene kadar görünen herhangi bir istem için Enter tuşuna basın. Ardından CTRL+C tuşuna basın ve  ***sudo reboot***  yazın.
    
 4) Sunucunuz yeniden başlatıldı, sakin olun ve tekrar içine girin, sonra 5. adıma geçin.
 5) Shadowsock'u şu komut ile yükleyin ->
-   " ***sudo su*** "
-   " ***sudo curl :https://raw.githubusercontent.com/imbat12/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-ss.sh | bash*** "
+   ***sudo su***
+   ***sudo curl :https://raw.githubusercontent.com/imbat12/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-ss.sh | bash***
    
 7) Bu dosyayı düzenleyerek varsayılan şifreyi değiştirin ->
-   " ***nano /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json*** "
+   ***nano /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json***
    
 9) Yeni şifrenizi girdikten sonra tuşuna basın ***CONTROL + O*** daha sonra kaydetmek için ***ENTER*** tuşuna basın ve çıkmak için ***CONTROL+X*** basın.
-10) Şifrenizi değiştirdikten sonra sunucuyu yeniden başlatın -> " ***sudo reboot*** "
+10) Şifrenizi değiştirdikten sonra sunucuyu yeniden başlatın ->   ***sudo reboot***
     
 12) İşiniz bitti, sürümler bölümünden kendinize bir istemci uygulama edinerek kullanmaya başlayabilirsiniz.
 - For windows : https://github.com/shadowsocks/shadowsocks-windows
