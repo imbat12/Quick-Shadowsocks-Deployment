@@ -27,8 +27,7 @@ Linux Server için Quick-Shadowsocks-Deployment, Özellikle Ubuntu 20.04 ve 22.0
   
 2) Sunucuyu güncelleyin ve Snap'i şununla yükleyin ->
    
-***sudo apt update***  
-
+***sudo apt update***  \n
 ***sudo apt upgrade***
 ***sudo su*** 
 ***sudo curl https://raw.githubusercontent.com/imbat12/Quick-Shadowsocks-Deployment/main/ubuntu-20.04-setup.sh | bash*** 
