@@ -1,9 +1,9 @@
 # Quick-Shadowsocks-Deployment
 Linux Server için Quick-Shadowsocks-Deployment, Özellikle Ubuntu 20.04 ve 22.04 için.
 
-Bu projenin alındığı orjinal kaynak linki: https://github.com/OmiceyO/Quick-Shadowsocks-Deployment/tree/main .
+<small>Bu projenin alındığı orjinal kaynak linki: https://github.com/OmiceyO/Quick-Shadowsocks-Deployment/tree/main .
 Bu kopyalanmış proje ingilizce konusunda sıkıntı yaşayanlar için türkçeleştirilerek ve bazı açıklamalar değiştirilerek tekrar düzenlenmiştir.  
-@OmiceyO 'ye teşekür ederiz.
+@OmiceyO 'ye teşekür ederiz.</small>
 
 ****
 The main source link in which this project is taken is: https://github.com/omiceyo/quick-shadowsocks-deployment/tre/main .
