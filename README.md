@@ -3,7 +3,7 @@ Bu kopyalanmış proje ingilizce konusunda sıkıntı yaşayanlar için türkçe
 @OmiceyO 'ye teşekür ederiz.
 
 ****
-The main source link in which this project is taken is: https://github.com/omiceyo/quick-shadowsocks-deployment/tre/main
+The main source link in which this project is taken is: https://github.com/omiceyo/quick-shadowsocks-deployment/tre/main .
 This copied project has been re -arranged by being translated into Turkish for those who have problems in English and changing some explanations.
 Thank you to @OmiceyO
 
