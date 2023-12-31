@@ -9,14 +9,14 @@ Thank you to @OmiceyO
 
 ****
 
-Shadowsocks nedir? 
+# Shadowsocks nedir? 
 - https://en.wikipedia.org/wiki/Shadowsocks
 
 
 # Quick-Shadowsocks-Deployment
-Linux Server için Quick shadowsocks deployment, Özellikle Ubuntu 20.04 ve 22.04
+Linux Server için Quick-Shadowsocks-Deployment, Özellikle Ubuntu 20.04 ve 22.04 için.
 
-Nasıl kullanılır:
+# Nasıl kullanılır:
 (Aşağıdaki komutları kopyalayıp yapıştırabilirsiniz.)
 -Adım adım video kılavuzu: https://www.youtube.com/watch?v=xPM4elJtxCs
 
